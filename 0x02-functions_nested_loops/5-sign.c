@@ -2,11 +2,11 @@
 
 /**
  * print_sign - checks for alphabets
- * @c: character to be checked
+ * @n: character to be checked
  *
  * Return: 1 if character is a letter, 0 otherwise
  */
-int print_sign(int c)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
