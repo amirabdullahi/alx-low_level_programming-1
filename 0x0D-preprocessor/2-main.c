@@ -1,6 +1,10 @@
-#ifndef _FUNCTION_LIKE_MACRO_H
-#define _FUNCTION_LIKE_MACRO_H
-
-#define ABS(x) (((x) >= 0) ? (x) : -(x))
-
-#endif /* _FUNCTION_LIKE_MACRO_H */
+#include <stdio.h>
+/**
+ * main - accepts arguments
+ * Return: always 0
+ */
+int main(void)
+{
+	printf("%s\n", __FILE__);
+	return (0);
+}
